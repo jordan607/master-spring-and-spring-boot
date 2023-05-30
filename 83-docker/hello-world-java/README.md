@@ -48,5 +48,7 @@ ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
 ```
 
 
-##Build a container image
+##Build a container image -> works with java 17 and above
+
+
 ``` mvn spring-boot:build-image```
